@@ -12,6 +12,7 @@
                 <x:Array Type="{x:Type local:MasterPageItem}">
                     <local:MasterPageItem Title="Assesments" TargetType="{x:Type local:Assessments}"/>
                     <local:MasterPageItem Title="Room Finder" TargetType="{x:Type local:Roomfinder}"/>
+                    <local:MasterPageItem Title="Login" TargetType="{x:Type local:LoginPage}"/>
                 </x:Array>
             </ListView.ItemsSource>
 
@@ -19,10 +20,10 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Grid Padding="5,10">
+                        <Grid Padding="10,15">
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="100"/>
-                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="80"/>
                             </Grid.ColumnDefinitions>
                             <Label Grid.Column="0" Text="{Binding Title}"/>
                         </Grid>
