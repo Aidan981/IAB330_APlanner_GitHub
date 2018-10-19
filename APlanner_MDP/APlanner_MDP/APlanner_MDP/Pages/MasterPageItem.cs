@@ -4,9 +4,12 @@ using System.Text;
 
 namespace APlanner_MDP.Pages
 {
-    class MasterPageItem
+    public class MasterPageItem
     {
         public string Title { get; set; }
         public Type TargetType { get; set; }
+        public MasterPageItem()
+        {
+        }
     }
 }

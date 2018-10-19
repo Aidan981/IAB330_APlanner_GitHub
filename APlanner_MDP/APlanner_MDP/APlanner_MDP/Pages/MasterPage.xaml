@@ -6,19 +6,22 @@
              Title="APlanner">
     <StackLayout VerticalOptions="FillAndExpand">
         <ListView x:Name="ListViewMenu"
-                    HasUnevenRows="True">
+                    HasUnevenRows="True"
+                  x:FieldModifier="public">
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type local:MasterPageItem}">
                     <local:MasterPageItem Title="Assesments" TargetType="{x:Type local:Assessments}"/>
                     <local:MasterPageItem Title="Room Finder" TargetType="{x:Type local:Roomfinder}"/>
                 </x:Array>
             </ListView.ItemsSource>
+
+
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <Grid Padding="5,10">
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="70"/>
+                                <ColumnDefinition Width="100"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
                             <Label Grid.Column="0" Text="{Binding Title}"/>
