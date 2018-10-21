@@ -345,23 +345,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Michi\\.nuget\\packages\\": {},
+    "C:\\Users\\Sachintha\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Michi\\Documents\\APlanner\\APlanner\\APlanner\\APlanner.csproj",
+      "projectUniqueName": "C:\\Users\\Sachintha\\Documents\\iab330-project\\APlanner\\APlanner\\APlanner.csproj",
       "projectName": "APlanner",
-      "projectPath": "C:\\Users\\Michi\\Documents\\APlanner\\APlanner\\APlanner\\APlanner.csproj",
-      "packagesPath": "C:\\Users\\Michi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Michi\\Documents\\APlanner\\APlanner\\APlanner\\obj\\",
+      "projectPath": "C:\\Users\\Sachintha\\Documents\\iab330-project\\APlanner\\APlanner\\APlanner.csproj",
+      "packagesPath": "C:\\Users\\Sachintha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sachintha\\Documents\\iab330-project\\APlanner\\APlanner\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Michi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sachintha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
