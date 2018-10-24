@@ -10,7 +10,7 @@
                   x:FieldModifier="public">
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type local:MasterPageItem}">
-                    <local:MasterPageItem Title="Assesments" TargetType="{x:Type local:Assessments}"/>
+                    <local:MasterPageItem Title="Assesments" TargetType="{x:Type local:AssessmentsPage}"/>
                     <local:MasterPageItem Title="Room Finder" TargetType="{x:Type local:Roomfinder}"/>
                     <local:MasterPageItem Title="Login" TargetType="{x:Type local:LoginPage}"/>
                 </x:Array>

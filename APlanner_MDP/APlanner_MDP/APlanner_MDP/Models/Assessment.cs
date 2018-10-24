@@ -8,11 +8,14 @@ namespace APlanner_MDP.Models
     {
         public Assessment()
         {
-            Name = "Assessment 1";
-            Unit = "IAB330";
-            Description = "Write a text.";
-            Link = "www.google.com";
-            Duedate = new DateTime(2018, 12, 2);
+        }
+        public Assessment(string name, string unit, DateTime duedate, string description, string link)
+        {
+            Name = name;
+            Link = link;
+            Unit = unit;
+            Duedate = duedate;
+            Description = description;
         }
         public string Name { get; set; }
         public string Unit { get; set; }

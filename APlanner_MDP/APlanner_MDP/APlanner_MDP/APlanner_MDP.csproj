@@ -14,13 +14,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Pages\AssessmentsPage.xaml.cs">
+      <DependentUpon>AssessmentsPage.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Pages\MasterPage.xaml.cs">
       <DependentUpon>MasterPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Pages\Assessments.xaml">
+    <EmbeddedResource Update="Pages\AssessmentsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Pages\LoginPage.xaml">

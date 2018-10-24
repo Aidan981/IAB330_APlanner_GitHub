@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="APlanner_MDP.Pages.AssessmentsPage">
+    <ListView x:Name="AssessmentListView"
+            ItemsSource="{Binding Assessments}"
+            CachingStrategy="RecycleElement"
+            Margin="20"
+            HasUnevenRows="True">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Margin="20,0,0,0" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                        <Label Text="{Binding Name}"
+                               Style="{DynamicResource ListItemTextStyle}"
+                               FontSize="Large"/>
+                        <Label Text="{Binding Unit}"
+                               Style="{DynamicResource ListItemTextStyle}"/>
+                        <Label Text="{Binding Duedate}"
+                               Style="{DynamicResource ListItemTextStyle}"/>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
