@@ -26,7 +26,6 @@ namespace APlanner_MDP.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::APlanner_MDP.Droid.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation
