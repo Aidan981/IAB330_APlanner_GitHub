@@ -17,7 +17,7 @@ namespace APlanner_MDP.Models
             GroupedRooms Garden;
             XBlock = new GroupedRooms()
             {
-                new Room("X340", "You can learn here", false, false, true),
+                new Room("X340", "Beamer available", false, false, true),
                 new Room("X123", "Good View", false, false, true),
                 new Room("X520", "Good for Group-work", false, false, false),
                 new Room("X120", "Water Fountain inside", false, true, true)
