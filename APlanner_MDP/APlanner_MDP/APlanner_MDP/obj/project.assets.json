@@ -345,23 +345,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Michi\\.nuget\\packages\\": {},
+    "C:\\Users\\Sachintha\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Michi\\Desktop\\iab330-project\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP.csproj",
+      "projectUniqueName": "C:\\Users\\Sachintha\\Documents\\iab330-project1\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP.csproj",
       "projectName": "APlanner_MDP",
-      "projectPath": "C:\\Users\\Michi\\Desktop\\iab330-project\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP.csproj",
-      "packagesPath": "C:\\Users\\Michi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Michi\\Desktop\\iab330-project\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP\\obj\\",
+      "projectPath": "C:\\Users\\Sachintha\\Documents\\iab330-project1\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP.csproj",
+      "packagesPath": "C:\\Users\\Sachintha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sachintha\\Documents\\iab330-project1\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Michi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sachintha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
