@@ -17,16 +17,9 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="50"/>
                     <RowDefinition Height="50"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="40"/>
-                    <RowDefinition Height="40"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <Image Source="" HeightRequest="70" VerticalOptions="End"/>
-                <Label x:Name="Labal_Username" Text="Username"/>
                 <Entry x:Name="Entry_Username" Grid.Row="1" Placeholder="Username" PlaceholderColor="#bababa" FontSize="16"/>
-                <Label x:Name="Labal_Password" Text="UPassword"/>
                 <Entry x:Name="Entry_Password" Grid.Row="2" Placeholder="Password" PlaceholderColor="#bababa" FontSize="16"/>
                 <Button x:Name="Button_Login" Text="Log in" BackgroundColor="#3897F0" TextColor="White"  HeightRequest="50 " VerticalOptions="Start" Grid.Row="3" Clicked="LoginProcess"/>
             </Grid>

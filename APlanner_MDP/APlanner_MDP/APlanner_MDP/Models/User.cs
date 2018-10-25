@@ -28,7 +28,7 @@ namespace APlanner_MDP.Models
             {
                 return false;
             }
-            return this.Username.ToLowerInvariant() == "joe"
+            return this.Username.ToLowerInvariant() == "michael"
                 && this.Password.ToLowerInvariant() == "secret";
         }
     }

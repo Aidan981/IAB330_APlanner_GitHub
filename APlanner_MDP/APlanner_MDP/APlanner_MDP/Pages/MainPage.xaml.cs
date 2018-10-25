@@ -14,7 +14,6 @@ namespace APlanner_MDP.Pages
             InitializeComponent();
             MasterPage.ListViewMenu.ItemSelected += OnItemSelected;
         }
-
         void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             var item = e.SelectedItem as MasterPageItem;

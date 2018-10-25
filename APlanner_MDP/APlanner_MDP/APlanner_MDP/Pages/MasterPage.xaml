@@ -12,7 +12,7 @@
                 <x:Array Type="{x:Type local:MasterPageItem}">
                     <local:MasterPageItem Title="Assesments" TargetType="{x:Type local:AssessmentsPage}"/>
                     <local:MasterPageItem Title="Room Finder" TargetType="{x:Type local:Roomfinder}"/>
-                    <local:MasterPageItem Title="Login" TargetType="{x:Type local:LoginPage}"/>
+                    <local:MasterPageItem Title="Logout" TargetType="{x:Type local:LogoutPage}"/>
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>

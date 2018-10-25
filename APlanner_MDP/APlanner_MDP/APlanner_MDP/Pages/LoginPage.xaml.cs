@@ -27,11 +27,11 @@ namespace APlanner_MDP.Pages
             if (user.UserAuthenticated())
             {
                 DisplayAlert("Login", "Login Successful", "Okay");
-
             }
             else
             {
                 DisplayAlert("Login", "Login Failed", "Try Again");
+                Application.Current.MainPage = new MainPage();
             }
         }
 

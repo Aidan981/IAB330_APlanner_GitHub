@@ -11,7 +11,7 @@ namespace APlanner_MDP
         public App()
         {
             InitializeComponent();
-            MainPage = new MainPage();
+            MainPage = new LoginPage();
         }
 
         protected override void OnStart()

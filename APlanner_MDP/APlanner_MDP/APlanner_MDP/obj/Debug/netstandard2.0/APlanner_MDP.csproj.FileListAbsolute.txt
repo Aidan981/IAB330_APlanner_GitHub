@@ -64,3 +64,4 @@ C:\Users\Sachintha\Documents\iab330-project1\APlanner_MDP\APlanner_MDP\APlanner_
 C:\Users\Sachintha\Documents\iab330-project1\APlanner_MDP\APlanner_MDP\APlanner_MDP\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Sachintha\Documents\iab330-project1\APlanner_MDP\APlanner_MDP\APlanner_MDP\obj\Debug\netstandard2.0\APlanner_MDP.dll
 C:\Users\Sachintha\Documents\iab330-project1\APlanner_MDP\APlanner_MDP\APlanner_MDP\obj\Debug\netstandard2.0\APlanner_MDP.pdb
+C:\Users\Michi\Desktop\iab330-project\APlanner_MDP\APlanner_MDP\APlanner_MDP\obj\Debug\netstandard2.0\Pages\LogoutPage.xaml.g.cs
