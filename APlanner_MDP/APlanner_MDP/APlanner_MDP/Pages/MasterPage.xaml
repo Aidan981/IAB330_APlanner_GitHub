@@ -15,8 +15,6 @@
                     <local:MasterPageItem Title="Login" TargetType="{x:Type local:LoginPage}"/>
                 </x:Array>
             </ListView.ItemsSource>
-
-
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

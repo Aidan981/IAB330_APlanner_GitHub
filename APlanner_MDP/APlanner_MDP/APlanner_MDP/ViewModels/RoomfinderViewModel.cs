@@ -21,7 +21,39 @@ namespace APlanner_MDP.ViewModels
         }
         public RoomfinderViewModel()
         {
-            AllRooms = RoomStorage.GetRooms("username", "password");
+            allRooms = RoomStorage.GetRooms("username", "password");
+        }
+        private bool outsidetoggle = false;
+        private bool powerplugstoggle = false;
+        private bool eatanddrinktoggle = false;
+        public bool OutsideToggle
+        {
+            get {return outsidetoggle; }
+            set {
+                outsidetoggle = value;
+                allRooms = RoomSearch.searchRightRooms(RoomStorage.GetRooms("username", "password"), outsidetoggle, powerplugstoggle, eatanddrinktoggle);
+                OnPropertyChanged("AllRooms");
+            }
+        }
+        public bool PowerpluginToggle
+        {
+            get { return powerplugstoggle; }
+            set
+            {
+                powerplugstoggle = value;
+                allRooms = RoomSearch.searchRightRooms(RoomStorage.GetRooms("username", "password"), outsidetoggle, powerplugstoggle, eatanddrinktoggle);
+                OnPropertyChanged("AllRooms");
+            }
+        }
+        public bool EatanddrinkToggle
+        {
+            get { return eatanddrinktoggle; }
+            set
+            {
+                eatanddrinktoggle = value;
+                allRooms = RoomSearch.searchRightRooms(RoomStorage.GetRooms("username", "password"), outsidetoggle, powerplugstoggle, eatanddrinktoggle);
+                OnPropertyChanged("AllRooms");
+            }
         }
     }
 }
