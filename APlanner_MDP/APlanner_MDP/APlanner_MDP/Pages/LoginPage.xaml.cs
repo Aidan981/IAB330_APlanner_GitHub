@@ -24,7 +24,7 @@ namespace APlanner_MDP.Pages
         {
             user user = new user(Entry_Username.Text, Entry_Password.Text);
 
-            if (user.UserAuthenticated())
+            if (user.UserAuthenticated(Entry_Username.Text, Entry_Password.Text))
             {
                 DisplayAlert("Login", "Login Successful", "Okay");
             }

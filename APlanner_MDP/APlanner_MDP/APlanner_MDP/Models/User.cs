@@ -21,15 +21,15 @@ namespace APlanner_MDP.Models
         {
             this.text1 = text1;
         }
-        public bool UserAuthenticated()
+        public bool UserAuthenticated(string username,string password)
         {
-            if (string.IsNullOrEmpty(this.Username)
-                || string.IsNullOrEmpty(this.Password))
+            if (string.IsNullOrEmpty(username)
+                || string.IsNullOrEmpty(password))
             {
                 return false;
             }
-            return this.Username.ToLowerInvariant() == "michael"
-                && this.Password.ToLowerInvariant() == "secret";
+            return username.ToLowerInvariant() == "michael"
+                && password.ToLowerInvariant() == "secret";
         }
     }
 }
