@@ -1,4 +1,5 @@
-﻿using System;
+﻿using APlanner_MDP.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,31 +10,29 @@ using Xamarin.Forms.Xaml;
 
 namespace APlanner_MDP.Pages
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class LoginPage : ContentPage
-	{
-
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class LoginPage : ContentPage
+    {
         private string _username;
         private string _password;
         private bool _areCredentialsInvalid;
-
-
-        private bool UserAuthenticated(string username, string password)
+        public LoginPage()
         {
-            if (string.IsNullOrEmpty(username)
-                || string.IsNullOrEmpty(password))
-            {
-                return false;
-            }
-
-            return username.ToLowerInvariant() == "joe"
-                && password.ToLowerInvariant() == "secret";
+            InitializeComponent();
         }
+        void LoginProcess(object sender, EventArgs e)
+        {
+            user user = new user(Entry_Username.Text, Entry_Password.Text);
 
-        public LoginPage ()
-		{
-			InitializeComponent ();
+            if (user.UserAuthenticated())
+            {
+                DisplayAlert("Login", "Login Successful", "Okay");
 
+            }
+            else
+            {
+                DisplayAlert("Login", "Login Failed", "Try Again");
+            }
         }
 
 
