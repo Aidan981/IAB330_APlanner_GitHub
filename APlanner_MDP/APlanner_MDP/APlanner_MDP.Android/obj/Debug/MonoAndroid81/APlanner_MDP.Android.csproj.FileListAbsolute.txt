@@ -99,7 +99,9 @@ C:\Users\Michi\Desktop\iab330-project\APlanner_MDP\APlanner_MDP\APlanner_MDP.And
 C:\Users\Michi\Desktop\iab330-project\APlanner_MDP\APlanner_MDP\APlanner_MDP.Android\obj\Debug\MonoAndroid81\android\assets\System.Xml.pdb
 C:\Users\Michi\Desktop\iab330-project\APlanner_MDP\APlanner_MDP\APlanner_MDP.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\Michi\Desktop\iab330-project\APlanner_MDP\APlanner_MDP\APlanner_MDP.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\Michi\Desktop\iab330-project\APlanner_MDP\APlanner_MDP\APlanner_MDP\bin\Debug\netstandard2.0\APlanner_MDP.dll
 C:\Users\Michi\Desktop\iab330-project\APlanner_MDP\APlanner_MDP\APlanner_MDP.Android\obj\Debug\MonoAndroid81\linksrc\APlanner_MDP.Android.pdb
+C:\Users\Michi\Desktop\iab330-project\APlanner_MDP\APlanner_MDP\APlanner_MDP.Android\bin\Debug\APlanner_MDP.dll.mdb
 C:\Users\Michi\Desktop\iab330-project\APlanner_MDP\APlanner_MDP\APlanner_MDP.Android\obj\Debug\MonoAndroid81\linksrc\APlanner_MDP.dll.mdb
 C:\Users\Michi\Desktop\iab330-project\APlanner_MDP\APlanner_MDP\APlanner_MDP.Android\obj\Debug\MonoAndroid81\linksrc\FormsViewGroup.dll.mdb
 C:\Users\Michi\Desktop\iab330-project\APlanner_MDP\APlanner_MDP\APlanner_MDP.Android\obj\Debug\MonoAndroid81\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

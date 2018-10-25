@@ -13,7 +13,7 @@ namespace APlanner_MDP.Models
         {
             return (new ObservableCollection<Assessment> {
                 new Assessment("Assessment 1","IAB330", new DateTime(2018,12,12),"You have to write a text.","www.google.com"),
-                new Assessment("Assessment 2","CAB340", new DateTime(2018,12,12),"You have to write a text.","www.google.com"),
+                new Assessment("Final Exam","CAB340", new DateTime(2018,12,12),"You have to write a text.","www.google.com"),
                 new Assessment("Assessment 3","CAB230", new DateTime(2018,08,10),"You have to write a text.","www.google.com"),
                 new Assessment("Assessment 4","EGB339", new DateTime(2018,12,12),"You have to write a text.","www.google.com")
             });

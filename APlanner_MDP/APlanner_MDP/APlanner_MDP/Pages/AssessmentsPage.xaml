@@ -6,18 +6,23 @@
             ItemsSource="{Binding Assessments}"
             CachingStrategy="RecycleElement"
             Margin="20"
+            BackgroundColor="#eee"
             HasUnevenRows="True">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
                     <StackLayout Margin="20,0,0,0" Orientation="Vertical" HorizontalOptions="FillAndExpand">
                         <Label Text="{Binding Name}"
-                               Style="{DynamicResource ListItemTextStyle}"
-                               FontSize="Large"/>
-                        <Label Text="{Binding Unit}"
-                               Style="{DynamicResource ListItemTextStyle}"/>
-                        <Label Text="{Binding Duedate}"
-                               Style="{DynamicResource ListItemTextStyle}"/>
+                            Style="{DynamicResource ListItemTextStyle}"
+                            FontSize="Large"
+                            TextColor="#FF00008B"/>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Unit}"
+                                Style="{DynamicResource ListItemTextStyle}"/>
+                            <Label Text="{Binding Duedate}"
+                                Style="{DynamicResource ListItemTextStyle}"
+                                HorizontalOptions="End"/>
+                        </StackLayout>
                     </StackLayout>
                 </ViewCell>
             </DataTemplate>
