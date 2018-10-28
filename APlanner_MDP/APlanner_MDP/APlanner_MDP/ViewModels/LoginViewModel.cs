@@ -9,14 +9,14 @@ namespace APlanner_MDP.ViewModels
 {
     public class LoginViewModel : ViewModelBase
     {
-        /*
+        
         public LoginViewModel()
         {
             userSecret = new user("Username", "Password");
         }
         private user userSecret;
         public Command tryToLogin{ get; private set; }
-        public user UserLogin
+        private user UserLogin
         {
             get { return userSecret; }
             set
@@ -30,14 +30,14 @@ namespace APlanner_MDP.ViewModels
             get {return ButtonPress; }
             set
             {
-                if (userSecret.UserAuthenticated())
+                if (userSecret.UserAuthenticated("username", "password"))
                 { Application.Current.MainPage = new MainPage(); }
                 else
                 {
-                    //DisplayAlert("Login", "Login Failed", "Try Again");
+                    App.Current.MainPage.DisplayAlert("Login", "Login Failed", "Try Again");
                 }
             }
         }
-        */
+        
     }
 }
