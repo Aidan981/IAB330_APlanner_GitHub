@@ -26,6 +26,7 @@ namespace APlanner_MDP.Pages
             {
                 DisplayAlert("Login", "Login Successful", "Okay");
                 Application.Current.MainPage = new MainPage();
+                App.userDb.saveUser(user);
             }
             else
             {

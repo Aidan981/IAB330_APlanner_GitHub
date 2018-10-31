@@ -55,4 +55,8 @@ C:\Users\Sachintha\Documents\iab330-project5\APlanner_MDP\APlanner_MDP\APlanner_
 C:\Users\Sachintha\Documents\iab330-project5\APlanner_MDP\APlanner_MDP\APlanner_MDP.iOS\obj\iPhoneSimulator\Debug\APlanner_MDP.iOS.csproj.CopyComplete
 C:\Users\Sachintha\Documents\iab330-project5\APlanner_MDP\APlanner_MDP\APlanner_MDP.iOS\obj\iPhoneSimulator\Debug\APlanner_MDP.iOS.exe
 C:\Users\Sachintha\Documents\iab330-project5\APlanner_MDP\APlanner_MDP\APlanner_MDP.iOS\obj\iPhoneSimulator\Debug\APlanner_MDP.iOS.pdb
-C:\Users\Sachintha\Documents\iab330-project5\APlanner_MDP\APlanner_MDP\APlanner_MDP.iOS\bin\iPhoneSimulator\Debug\APlanner_MDP.dll.mdb
+C:\Users\Sachintha\Documents\iab330-project5\APlanner_MDP\APlanner_MDP\APlanner_MDP.iOS\bin\iPhoneSimulator\Debug\SQLite-net.dll
+C:\Users\Sachintha\Documents\iab330-project5\APlanner_MDP\APlanner_MDP\APlanner_MDP.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Users\Sachintha\Documents\iab330-project5\APlanner_MDP\APlanner_MDP\APlanner_MDP.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Sachintha\Documents\iab330-project5\APlanner_MDP\APlanner_MDP\APlanner_MDP.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.core.dll
+C:\Users\Sachintha\Documents\iab330-project5\APlanner_MDP\APlanner_MDP\APlanner_MDP.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.provider.sqlite3.dll
