@@ -20,7 +20,7 @@ using Xamarin.Forms;
 
 namespace APlanner_MDP.Droid.Data
 {
-    public class SQLite_Android : sql_lite
+    public class SQLite_Android
     {
         public SQLite_Android(){}
         public SQLite.SQLiteConnection GetConnection()

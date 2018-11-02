@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using APlanner_MDP.Models;
 using System.Text;
 
-namespace APlanner_MDP.Models
+namespace APlanner_MDP.Data
 {
     public static class RoomStorage
     {

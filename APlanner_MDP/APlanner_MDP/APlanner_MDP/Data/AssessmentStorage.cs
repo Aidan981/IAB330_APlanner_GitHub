@@ -5,7 +5,7 @@ using APlanner_MDP.Pages;
 using APlanner_MDP.Models;
 using System.Text;
 
-namespace APlanner_MDP.Models
+namespace APlanner_MDP.Data
 {
     public static class AssessmentStorage
     {

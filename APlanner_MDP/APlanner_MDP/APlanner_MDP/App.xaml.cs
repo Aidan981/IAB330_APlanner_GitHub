@@ -13,7 +13,7 @@ namespace APlanner_MDP
     public partial class App : Application
     {
 
-        static UserDatabase UserDatabase;
+        //static UserDatabase UserDatabase;
         public App()
         {
             InitializeComponent();
@@ -35,6 +35,7 @@ namespace APlanner_MDP
             // Handle when your app resumes
         }
 
+        /*
         public static UserDatabase userDb
         {
             get
@@ -46,6 +47,7 @@ namespace APlanner_MDP
                 return UserDatabase;
             }
         }
+        */
 
     }
 }
