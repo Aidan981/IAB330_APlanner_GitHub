@@ -1007,20 +1007,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sachintha\\.nuget\\packages\\": {}
+    "C:\\Users\\Michi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sachintha\\Documents\\iab330-project5\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP.iOS\\APlanner_MDP.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Michi\\Desktop\\iab330-project\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP.iOS\\APlanner_MDP.iOS.csproj",
       "projectName": "APlanner_MDP.iOS",
-      "projectPath": "C:\\Users\\Sachintha\\Documents\\iab330-project5\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP.iOS\\APlanner_MDP.iOS.csproj",
-      "packagesPath": "C:\\Users\\Sachintha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sachintha\\Documents\\iab330-project5\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Michi\\Desktop\\iab330-project\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP.iOS\\APlanner_MDP.iOS.csproj",
+      "packagesPath": "C:\\Users\\Michi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Michi\\Desktop\\iab330-project\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Sachintha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Michi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1033,8 +1033,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Sachintha\\Documents\\iab330-project5\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP.csproj": {
-              "projectPath": "C:\\Users\\Sachintha\\Documents\\iab330-project5\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP.csproj"
+            "C:\\Users\\Michi\\Desktop\\iab330-project\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP.csproj": {
+              "projectPath": "C:\\Users\\Michi\\Desktop\\iab330-project\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP\\APlanner_MDP.csproj"
             }
           }
         }

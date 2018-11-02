@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using SQLite;
 
 namespace APlanner_MDP.Models
 {
     public class user
     {
-        [PrimaryKey]
         public int Id { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
@@ -27,8 +25,7 @@ namespace APlanner_MDP.Models
             {
                 return false;
             }
-            return username.ToLowerInvariant() == "michael"
-                && password.ToLowerInvariant() == "secret";
+            return true;
         }
     }
 }

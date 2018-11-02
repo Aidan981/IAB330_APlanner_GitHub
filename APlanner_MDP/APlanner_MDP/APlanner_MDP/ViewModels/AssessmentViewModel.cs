@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using APlanner_MDP.ViewModels;
+﻿using System.Collections.ObjectModel;
 using APlanner_MDP.Models;
-using APlanner_MDP.Pages;
-using Xamarin.Forms;
+using APlanner_MDP.Data;
 using Xamarin.Forms.Xaml;
 
 
